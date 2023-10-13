@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aram *.css
+recursive-include aram *.csv
+recursive-include aram *.html
+recursive-include aram *.ico
+recursive-include aram *.js
+recursive-include aram *.json
+recursive-include aram *.md
+recursive-include aram *.png
+recursive-include aram *.py
+recursive-include aram *.svg
+recursive-include aram *.txt
+recursive-exclude aram *.pyc
