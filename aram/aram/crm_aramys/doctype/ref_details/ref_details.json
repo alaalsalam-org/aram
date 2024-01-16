@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-24 03:55:51.896189",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bn",
+  "i_d",
+  "in",
+  "iv",
+  "v",
+  "tic",
+  "cs"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "columns": 2,
+   "fieldname": "bn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Binifcary Name ",
+   "search_index": 1
+  },
+  {
+   "bold": 1,
+   "columns": 2,
+   "fieldname": "i_d",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Invoice Date",
+   "search_index": 1
+  },
+  {
+   "bold": 1,
+   "columns": 2,
+   "fieldname": "in",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Invoice Number",
+   "search_index": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "iv",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Invoice Value",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "bold": 1,
+   "columns": 2,
+   "fieldname": "v",
+   "fieldtype": "Currency",
+   "label": "VAT"
+  },
+  {
+   "columns": 2,
+   "fieldname": "tic",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Invoice Cost",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "cs",
+   "fieldtype": "Data",
+   "label": "Cost Center"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-06 07:48:35.012422",
+ "modified_by": "Administrator",
+ "module": "aram",
+ "name": "REF Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
